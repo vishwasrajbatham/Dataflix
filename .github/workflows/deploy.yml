@@ -1,4 +1,4 @@
- name: Deploy to Hostinger via SSH
+name: Deploy to Hostinger via SSH
 
 on:
   push:
