@@ -32,7 +32,7 @@ jobs:
       with:
         host: ${{ secrets.HOSTINGER_SSH_HOST }}
         username: ${{ secrets.HOSTINGER_SSH_USERNAME }}
-        key: ${{ secrets.HOSTINGER_SSH_KEY }}
+        key: ${{ secrets.HOSTINGER_SSH_PASSWORD }}
         source: ./build/  # Path to your local build directory
         target: ${{ secrets.HOSTINGER_REMOTE_DIR }}
         port: 22  # Default SSH port
