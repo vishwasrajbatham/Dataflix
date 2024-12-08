@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.home-div{
+  width: 100%;
+}
+
+button{
+  background-color: rgb(61, 36, 137);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Arial';
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.logo-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.logo-img{
+  width:80px;
+  height: 50px;
+}
+
+.App-header {
+  color: white;
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFF6E9;
+}
+
+.nav_items{
+  font-weight: 600;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  bottom: 0;
+  font-weight: 800px;
+}
+
+.footer-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.contact-header{
+  background-color: black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.page1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page1-content{
+  color: white;
+  align-content: center;
+  border-radius: 20px;
+  width: 40%;
+}
+
+.p1imgdiv{
+  width: 50%;
+}
+.page1-image{
+  width: 100%;
+  height: 100%;
+}
+
+.page1-content-h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.page1-content-h2{
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.page1-buttons{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.page21-image{
+  width: 100%;
+}
+
+.page22-image{
+  width: 100%;
+}
+
+.page3-image{
+  width: 80%;
+  height: 100%;
+}
+
+.page4-image{
+  width: 100%;
+}
+
+.page5-image{
+  width: 100%;
+}
+
+.about{
+  height: 72vh;
+}
