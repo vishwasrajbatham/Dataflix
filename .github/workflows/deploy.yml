@@ -35,4 +35,7 @@ jobs:
         key: ${{ secrets.HOSTINGER_SSH_PASSWORD }}
         source: ./build/  # Path to your local build directory
         target: ${{ secrets.HOSTINGER_REMOTE_DIR }}
+        port: 22  # Default SSH port
+        timeout: 120  # Increase timeout if needed
+        debug: true 
 
